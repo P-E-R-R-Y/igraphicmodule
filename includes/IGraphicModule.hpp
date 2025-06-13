@@ -27,6 +27,8 @@
 #include "audio/IMusic.hpp"
 #include "audio/ISound.hpp"
 
+#include "IModule.hpp"
+
 class IGraphicModule: public IModule {
     virtual ~IGraphicModule();
 
